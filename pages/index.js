@@ -1,8 +1,10 @@
+import React from 'react';
+import Login from '../components/Login/Login';
 
-export default function Home() {
+const index = () => {
   return (
-  <div>
-    <h1>Hola</h1>
-  </div>
-  )
-}
+    <Login></Login>
+  );
+};
+
+export default index;
